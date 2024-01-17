@@ -16,7 +16,7 @@ function validarForm()
 /******************************************************* */
 
 /* Slide */
-var image = ['_images/a.jpg','_images/b.jpg','_images/c.jpg','_images/d.jpg','_images/e.jpg']; // contain images in an array
+var image = ['images/a.jpg','images/b.jpg','images/c.jpg','images/d.jpg','images/e.jpg']; // contain images in an array
 var i = image.length; 
 var dots = document.getElementsByClassName("dots"); // contain dots in an array
 

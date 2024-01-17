@@ -76,7 +76,7 @@ nav {
 
 .section-1 {
 	position: relative;
-	background-image: url(../_images/welcome-background.jpg);
+	background-image: url(../images/welcome-background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.91;
