@@ -1,0 +1,105 @@
+<!Doctype html>
+<html lang="pt-pt">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Soluções Auto | Landing Page</title>
+		<link rel="icon" href="_images/logos/SolucoesAutoLogo_2.jpeg">
+		<link rel="stylesheet" href="_font-awesome\4.7.0\css\font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="cssFiles/indexCSS.css">
+		<script type="text/javascript" src="jsFiles/indexJS.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="https://aliusdesign.go.studio" target="_blank"><img id="imgHeader" src="_images/logos/SolucoesAutoLogo_2.jpeg" alt="[Logotipo Soluções Auto]" title="Logo Made by 'Alius Creative'" /></a>
+			<nav>
+				<ul id="menuIconsUL">
+					<li><a id="" href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+					<li><a id="" href="#" target="_blank"><i class="fa fa-google"></i></a></li>
+					<li><a id="" href="https://www.facebook.com/alsetang" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+					<li><a id="" href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="content">
+			<div class="section-1">
+				<div id="intro">
+					<h1>Bem vindo a <a>Soluções Auto </a><img src="_images/Support_30px.png" alt=""></h1>
+					<h3>A melhor escolha para o seu automóvel</h3>
+				</div>
+			</div>
+			
+			<div class="section-2">
+				<div class="slider_div">
+					<div id="slider">
+						<div id="box">
+							<img id="img" src="_images/a.jpg">
+						</div>
+						<!-- botões para controlar o slide -->
+						<button class="prew fa fa-chevron-left" onclick="prewImage()"></button>
+						<button class="next fa fa-chevron-right" onclick="nextImage()"></button>
+					</div>
+					<div class="dotsDiv">
+						<span class="dots"></span>
+						<span class="dots"></span>
+						<span class="dots"></span>
+						<span class="dots"></span>
+						<span class="dots"></span>
+					</div>
+				</div>
+				<aside>
+					<div id="descript">
+						<p>
+							A <strong>Soluções Auto</strong> está aqui para atender às suas necessidades. <br><br>
+							Proporcionamos serviços e produtos de qualidade e aos melhores preços. <br>
+							Aqui você encontra tudo o que precisa para a manutenção e revisões regulares do seu veículo.
+						</p>
+						<p id="paragrafo_sobre">Nossos serviços incluem:</p>
+						<ul class="servicos_ul">
+							<li>Reparações Mecânicas.</li>
+							<li>Assistência Técnica.</li>
+							<li>Personalização.</li>
+							<li>Venda de Peças.</li>
+						</ul>
+					</div>
+				</aside>
+			</div>
+
+			<div class="section-3">
+				<div id="contact_info">
+					<div id="contact_info_2">
+						<h2>Informações de Contacto</h2>
+						<p><i class="fa fa-location-arrow"></i>Lorem ipsum dolor sit amet.</p>
+						<p><i class="fa fa-phone"></i>(+244) 9XX XXX XXX</p>
+						<p><i class="fa fa-envelope-open-o"></i>solucoesauto@email.com</p>
+					</div>
+					<div id="socials">
+						<h2>Redes Sociais</h2>
+						<ul id="socials_2">
+							<li><a href=""><i class="fa fa-facebook-official"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus-square"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="form_contact">
+					<div class="form">
+						<form method="POST" class="contactoForm">
+							<input type="email" class="inputForm" id="email" placeholder="E-mail">
+							<input type="text" class="inputForm" id="assunto" placeholder="Assunto">
+							<input type="text" class="inputForm"  id="msg" placeholder="Mensagem">
+						<form>
+						<div id="enviarBtn" onclick="validarForm()"><p>Requerer Serviço</p></div>
+						<!--<button id="enviarBtn" type="button" onclick="validarForm()">Enviar</button>-->
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<p id="paragrafoRodape">
+				Copyright &copy; 2022 - All Rights Reserved | Crisb Neto
+			</p>
+		</footer>
+	</body>
+</html>
